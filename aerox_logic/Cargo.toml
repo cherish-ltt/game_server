@@ -1,0 +1,17 @@
+[package]
+name = "aerox_logic"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.91"
+authors = ["aerox_network Contributors"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/aojiaoxiaolinlin/game_server"
+description = "aerox_logic"
+categories = ["network-programming"]
+keywords = ["aerox_logic","AeroX"]
+
+[dependencies]
+anyhow = { workspace = true }
+tokio = { workspace = true }
+aerox_macro = { path = "../aerox_macro" }
